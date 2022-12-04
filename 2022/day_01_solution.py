@@ -9,7 +9,7 @@ class Solution():
         self.list_of_elves_and_calories = []
 
     def solve(self):
-        with open(f'{Path(__file__).resolve().parent}/01_input.txt',
+        with open(f'{Path(__file__).resolve().parent}/day_01_input.txt',
                   encoding='utf-8') as input_file:
             for line in input_file:
                 if len(line.strip()) == 0:
